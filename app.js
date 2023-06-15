@@ -20,8 +20,8 @@ const routesPosts = require('./route/posts');       // /posts
 
 app.use('/', routesIndex);
 app.use('/comments', routesComments);
-app.use('/posts', routesPosts);
-// 각각의 경로에 대해 라우팅을 한다.
+app.use('/posts', routesPosts); 
+// 각각의 경로에 대해 라우팅을 한다...
 
 
 // express 앱으로 서버를 시작한다.
